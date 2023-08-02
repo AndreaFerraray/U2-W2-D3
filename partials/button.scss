@@ -1,0 +1,17 @@
+button :hover {
+  background-color: fuchsia;
+}
+
+.bt-1 {
+  width: 200px;
+  border: 3px solid white;
+  background-color: $color-primary;
+}
+.bt-2 {
+  @extend .bt-1;
+  background-color: $color-secondary;
+}
+.bt-3 {
+  @extend .bt-1;
+  background-color: $color-tertiary;
+}

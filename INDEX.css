@@ -1,0 +1,30 @@
+button {
+  width: 200px;
+}
+
+body {
+  margin-inline: auto 0;
+}
+body div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+body div main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body div img {
+  width: 150px;
+}
+body div a {
+  text-decoration: none;
+  color: black;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

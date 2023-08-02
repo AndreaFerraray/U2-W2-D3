@@ -1,0 +1,28 @@
+@import "./partials/colori";
+@import "./partials/button";
+
+body {
+  margin-inline: auto 0;
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    main {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    img {
+      width: 150px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
